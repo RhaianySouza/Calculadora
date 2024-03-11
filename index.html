@@ -1,0 +1,180 @@
+<html>
+<head>
+
+<title>Calculadora Online</title>
+<!--METATAG-->
+<meta charset='utf-8'/>
+<meta content='document' name='resource-type'/>
+<meta content='pt-br' name='content-language'/>
+<meta content='Calculadora Online' name='DC.title'/>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='https://calculadoraonline.com/' property='og:url'/>
+<meta content='Rhaiany Souza, Rhaiany Cezar de Souza' name='author'/>
+<meta content='Calculadora online para cálculos matemáticos básicos, financeiros, científicos, rápido, pratica e precisa.' name='description'/>
+<meta content='calculadora online, calculadora científica, calculadora financeira, cálculos básicos, cálculos escolares, cálculos, matemática, financeira, cientifico, resolução' name='keywords'/>
+<script src='./JS/controle_calculadora.js' defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+<!--FACEBOOK-->
+<meta property='og:image' content=''/>
+<meta property='og:title' content='Calculadora Online' />
+<meta property='og:site_name' content='Calculadora Online'/>
+<meta property='og:url' content='https://calculadoraonline.com/'/>
+<meta property='og:description' content='Calculadora online para cálculos matemáticos básicos, financeiros, científicos, rápido, pratica e precisa.'/>
+<meta property='og:type' content='School'/>
+
+<!--TWITTER-->
+<meta name='twitter:card' content='summary'/>
+<meta name='twitter:image' content=''/>
+<meta name='twitter:title' content='Calculadora Online'>
+<meta name='twitter:url' content='https://calculadoraonline.com/'/>
+<meta name='twitter:description' content='Calculadora online para cálculos matemáticos básicos, financeiros, científicos, rápido, pratica e precisa.'/>
+
+<!--DOC EXTERNOS-->
+<link rel="stylesheet" href="./CSS/calculadoraonline_style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<link href="https://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
+
+<!--FIM METATAG-->
+<meta content='#16DED0' name='theme-color'/>
+<meta content='#16DED0' name='apple-mobile-web-app-status-bar-style'/>
+<meta content='#16DED0' name='msapplication-navbutton-color'/>
+<meta content='#16DED0' media='(prefers-color-scheme: light)' name='theme-color'/>
+
+</head>
+<body>
+
+	<nav>
+		<div>
+			<div id='menu'>
+				<button ><i class="fa-solid fa-bars"></i></button>
+				<a href="#"><img src='./IMAGE/logo.png'></a>
+			</div>
+			<ul>
+				<li><a href='/calculadorabaica'>Calculadoras</a></li>
+				<li><a href='/calculadoraIndicesFinanceiros'>Financeiros</a></li>
+				<li><a href='/calculadorBolsaDeValores'>Bolsa</a></li>
+				<li><a href='/calculadorLoteria'>Loteria</a></li>
+				<li><a href='/calculadorLoteria'>Câmbio</a></li>
+				<li><a href='/calculadorLoteria'>Exercícios</a></li>
+			</ul>
+		</div>
+	</nav>
+	<main>
+		<div class="home">
+			<div class='apresentation'>
+				
+				<div>
+					<h1>Calculadora Online Completa</h1>
+					<p>Você já imaginou ter uma ferramenta versátil, poderosa e acessível para 
+					simplificar seus cálculos diários? Apresentamos o Calculadora Online, a 
+					solução definitiva para todas as suas necessidades de cálculos, disponível 
+					a qualquer momento, em qualquer lugar.</p>
+					<div class="img"><img src="./IMAGE/avatar.png"></div>
+					<div>
+						<h3>Como Utilizar:</h3>
+						<ul>
+							<li>Acesse o site do Calculadora Online.</li>
+							<li>Escolha a calculadora desejada a partir do menu intuitivo.</li>
+							<li>Insira os valores necessários.</li>
+							<li>Receba resultados precisos em tempo real.</li>
+						</ul>
+						<p>Experimente agora mesmo a facilidade e a eficiência do Calculadora Online. 
+						Simplifique sua vida, otimize seus cálculos e alcance novos patamares de 
+						produtividade. Estamos aqui para transformar a maneira como você lida com os números!</p>
+					</div>
+					
+				</div>
+				
+			</div>
+
+			<div class='calculadora'>
+				<h1>Calculadora</h1>
+				<div id='preview'>
+					<input type='text' id='visor' placeholder='0'/>
+					<div id='previousCurrent'>0</div>
+				</div>
+				<div id='comandos'>
+					<button class='op'>CE</button>
+					<button class='op'>C</button>
+					<button class='op'>DEL</button>
+					<button class='op'>/</button>
+					
+					<button>7</button>
+					<button>8</button>
+					<button>9</button>
+					<button class='op'>*</button>
+					
+					<button>4</button>
+					<button>5</button>
+					<button>6</button>
+					<button class='op'>+</button>
+					
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+					<button class='op'>-</button>
+					
+					<button>0</button>
+					<button>.</button>
+					<button class='op equal'>=</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="about">
+			<h2>Por que escolher o Calculadora Online?</h2>
+			<div>
+				<div>
+					<h3>Variedade de Funções</h3>
+					<p>Desde cálculos simples de matemática até equações complexas de física, nosso site oferece uma 
+						ampla gama de funções para atender a todas as suas necessidades.</p>
+				</div>
+				<div>
+					<h3>Interface Intuitiva</h3>
+					<p>Desenvolvemos uma interface fácil de usar, projetada para proporcionar uma experiência amigável 
+						a usuários de todos os níveis de habilidade. Realize cálculos complexos sem esforço, com apenas 
+						alguns cliques.</p>
+				</div>
+				<div>
+					<h3>Acesso Universal</h3>
+					<p>Sem necessidade de download ou instalação, o Calculadora Online está disponível diretamente no seu 
+						navegador. Isso significa que você pode acessar suas ferramentas favoritas de cálculo a partir de 
+						qualquer dispositivo, a qualquer hora.</p>
+				</div>
+				<div>
+					<h3>Atualizações Constantes</h3>
+					<p>Estamos comprometidos em oferecer a você as últimas funcionalidades e melhorias. Nosso time de 
+						desenvolvimento trabalha incansavelmente para garantir que você tenha acesso às ferramentas mais 
+						avançadas.</p>
+				</div>
+				<div>
+					<h3>Compatibilidade Multiplataforma</h3>
+					<p>Seja você um estudante, profissional ou entusiasta, o Calculadora Online é compatível com uma 
+						variedade de disciplinas e campos, tornando-se a escolha ideal para todos os usuários.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div>
+			<div class="attribution">
+				<div>Todos os direitos reservados © 2024 <a href="">Calculadora Online</a></div>
+				<div class="socialMedia">
+					<a href='https://linkedin.com/in/RhaianySouza' target='_blanck'><i class='fab'>&#61665;</i></a>
+					<a href='https://www.instagram.com/rhaianydesouza/' target='_blanck'><i class='fab'>&#xf16d;</i></a>
+					<a href='https://github.com/RhaianySouza' target='_blanck'><i class='fab'>&#61595;</i></a>
+					<a href='https://www.youtube.com/@RhaianySouza' target='_blanck'><i class='fab'>&#61799;</i></a>
+				</div>
+			</div>	
+			<div class="portifolio"><a href=""><img src="./IMAGE/logo_my_portifolio.png"></a></div>
+			
+
+	</footer>
+</body>
+</html>
